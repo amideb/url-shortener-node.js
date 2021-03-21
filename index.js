@@ -3,6 +3,8 @@ const mongoose = require('mongoose')
 const ShortUrl = require('./models/shortUrl')
 const app = express()
 
+
+//mongoose setup
 mongoose
     .connect('mongodb://localhost:27017/url', {
        useNewUrlParser: true,
